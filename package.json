@@ -4,6 +4,8 @@
   },
 
   "scripts": {
-    "build:tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+    "build:tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build:copy": "mkdir -p dist && cp -r src/* dist/ && cp -r assets dist/ && cp -r design dist/",
+    "build:deploy": "npm run build:copy && npm run build:tailwind"
   }
 }
