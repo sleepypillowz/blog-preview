@@ -615,24 +615,12 @@ p{
   height: 2rem;
 }
 
-.h-full{
-  height: 100%;
-}
-
-.h-32{
-  height: 8rem;
-}
-
 .w-8{
   width: 2rem;
 }
 
 .w-full{
   width: 100%;
-}
-
-.w-32{
-  width: 8rem;
 }
 
 .cursor-pointer{
@@ -737,6 +725,21 @@ p{
 
 .tracking-wider{
   letter-spacing: 0.05em;
+}
+
+.text-gray-300{
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-gray-700{
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.text-gray-800{
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 .text-Grey{
