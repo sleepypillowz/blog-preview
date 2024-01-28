@@ -15,6 +15,9 @@ module.exports = {
         youngserif600: ['Figtree', 'sans-serif', '600'],
         youngserif800: ['Figtree', 'sans-serif', '800']
       },
+      boxShadow: {
+        'simple': '0.5rem 0.5rem',
+      }
     },
   },
   plugins: [],

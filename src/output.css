@@ -607,12 +607,12 @@ p{
   display: flex;
 }
 
-.h-48{
-  height: 12rem;
-}
-
 .h-8{
   height: 2rem;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .w-8{
@@ -647,20 +647,8 @@ p{
   border-radius: 0.125rem;
 }
 
-.rounded-xl{
-  border-radius: 0.75rem;
-}
-
 .border{
   border-width: 1px;
-}
-
-.border-b-8{
-  border-bottom-width: 8px;
-}
-
-.border-r-8{
-  border-right-width: 8px;
 }
 
 .border-black{
@@ -727,24 +715,15 @@ p{
   letter-spacing: 0.05em;
 }
 
-.text-gray-300{
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
-}
-
-.text-gray-700{
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
-.text-gray-800{
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
-}
-
 .text-Grey{
   --tw-text-opacity: 1;
   color: hsl(0 0% 50% / var(--tw-text-opacity));
+}
+
+.shadow-simple{
+  --tw-shadow: 0.5rem 0.5rem;
+  --tw-shadow-colored: 0.5rem 0.5rem var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .hover\:text-Primary:hover{
@@ -755,10 +734,6 @@ p{
 @media (min-width: 768px){
   .md\:grid{
     display: grid;
-  }
-
-  .md\:h-full{
-    height: 100%;
   }
 
   .md\:grid-cols-3{
