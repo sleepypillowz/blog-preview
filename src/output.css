@@ -554,10 +554,6 @@ p{
   --tw-backdrop-sepia:  ;
 }
 
-.relative{
-  position: relative;
-}
-
 .col-start-2{
   grid-column-start: 2;
 }
@@ -615,6 +611,18 @@ p{
   height: 12rem;
 }
 
+.h-8{
+  height: 2rem;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.h-32{
+  height: 8rem;
+}
+
 .w-8{
   width: 2rem;
 }
@@ -623,8 +631,8 @@ p{
   width: 100%;
 }
 
-.transform{
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+.w-32{
+  width: 8rem;
 }
 
 .cursor-pointer{
@@ -734,31 +742,6 @@ p{
 .text-Grey{
   --tw-text-opacity: 1;
   color: hsl(0 0% 50% / var(--tw-text-opacity));
-}
-
-.shadow-lg{
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-black{
-  --tw-shadow-color: #000;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.transition-transform{
-  transition-property: transform;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.hover\:border-b-12:hover{
-  border-bottom-width: 12px;
-}
-
-.hover\:border-r-12:hover{
-  border-right-width: 12px;
 }
 
 .hover\:text-Primary:hover{
