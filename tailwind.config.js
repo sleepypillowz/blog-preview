@@ -19,7 +19,7 @@ module.exports = {
         'simple': '0.5rem 0.5rem',
       },
       maxWidth: {
-  '200': 'max-width: 50rem',
+        '200': 'max-width: 50rem',
       },
     },
   },
