@@ -43,7 +43,6 @@ This HTML & CSS-only challenge is a perfect project for beginners getting up to 
 
 - Semantic HTML5 markup
 - CSS custom properties
-- CSS Grid
 - CSS Flex Box
 - Mobile-first workflow
 - [Tailwind](https://tailwindcss.com/) - CSS framework
