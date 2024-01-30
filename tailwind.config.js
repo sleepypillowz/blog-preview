@@ -17,7 +17,16 @@ module.exports = {
       },
       boxShadow: {
         'simple': '0.5rem 0.5rem',
-      }
+      },
+      maxWidth: {
+        '73': '18.25rem',
+        '74': '18.5rem',
+        '75': '18.75rem',
+        '76': '19rem',
+        '77': '19.25rem',
+        '78': '19.5rem',
+        '79': '19.75rem',
+      },
     },
   },
   plugins: [],

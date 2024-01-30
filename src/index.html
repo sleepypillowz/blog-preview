@@ -7,26 +7,25 @@
   <title>Frontend Mentor | Blog preview card</title>
   <link href="./output.css" rel="stylesheet">
 </head>
-<body class="mx-7 my-16 bg-Primary font-figtree text-xs">
+<body class="my-40 bg-Primary font-figtree text-xs">
 
-<!--style="box-shadow: 0.5rem 0.5rem;-->
-
-  <div class="md:grid md:grid-cols-3">
-    <main class="shadow-simple col-start-2 my-48 rounded-2xl border border-black bg-White">
-      <div class="m-6 overflow-hidden rounded-lg">
-        <img class="h-full w-full object-cover" src="../assets/images/illustration-article.svg" alt="omelette">
+  <div class="flex items-center justify-center md:grid md:grid-cols-3">
+    <main class="col-start-2 m-auto max-w-72 rounded-2xl border border-black bg-White shadow-simple">
+      <div class="m-4 mb-6 flex items-center justify-center overflow-hidden rounded-lg">
+        <img class="object-cover" src="../assets/images/illustration-article.svg" alt="omelette" width="300">
       </div>
-
-      <strong class="mx-6 mt-8 rounded-sm border border-transparent bg-Primary px-3 py-1"><b>Learning</b></strong>
+      
+      <strong class="mx-4 rounded-sm border border-transparent bg-Primary px-3 py-1"><b>Learning</b></strong>
       <p class="mt-4 font-extralight">Published 21 Dec 2023</p>
-      <p class="cursor-pointer font-youngserif800 text-xl hover:text-Primary md:text-3xl"><b>HTML & CSS foundations</b></p>
-      <p class="font-youngserif600 tracking-wider text-Grey">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      <p class="cursor-pointer font-youngserif800 text-xl hover:text-Primary md:text-xl"><b>HTML & CSS foundations</b></p>
+      <p class="font-youngserif600 tracking-wide text-Grey">These languages are the backbone of every website, defining structure, content, and presentation.</p>
     
-      <div class="mx-6 my-4 flex items-center overflow-hidden rounded-lg">
+      <div class="mx-6 my-4 ml-3 flex items-center overflow-hidden rounded-lg">
         <img class="h-8 w-8" src="../assets/images/image-avatar.webp" loading="lazy" alt="avatar">
-        <p class="mb-0 ml-4 font-youngserif600"><b>Greg Hooper</b></p>
+        <p class="mb-0 ml-3 font-youngserif600"><b>Greg Hooper</b></p>
       </div>
     </main>
+
   </div>
 </body>
 </html>
