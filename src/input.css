@@ -6,6 +6,6 @@
 
 @layer base {
   p {
-    @apply mx-4 mb-3 text-black
+    @apply mx-4 mb-3
   }
 }
