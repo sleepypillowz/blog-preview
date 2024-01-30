@@ -552,10 +552,6 @@ p{
   --tw-backdrop-sepia:  ;
 }
 
-.col-start-2{
-  grid-column-start: 2;
-}
-
 .m-6{
   margin: 1.5rem;
 }
@@ -600,6 +596,10 @@ p{
   margin-top: 1rem;
 }
 
+.inline{
+  display: inline;
+}
+
 .flex{
   display: flex;
 }
@@ -610,6 +610,10 @@ p{
 
 .w-8{
   width: 2rem;
+}
+
+.max-w-96{
+  max-width: 24rem;
 }
 
 .cursor-pointer{
@@ -704,8 +708,12 @@ p{
   line-height: 1.75rem;
 }
 
-.font-extralight{
-  font-weight: 200;
+.font-semibold{
+  font-weight: 600;
+}
+
+.font-medium{
+  font-weight: 500;
 }
 
 .tracking-wide{
@@ -734,21 +742,13 @@ p{
     margin-right: auto;
   }
 
-  .md\:grid{
-    display: grid;
-  }
-
-  .md\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .md\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .md\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
